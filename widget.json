@@ -1,0 +1,6 @@
+{
+  "name": "Netspeeds",
+  "description": "Displays your in/out speeds via Ethernet and AirPort, and the local IP address of each port.",
+  "author": "Charles Schoenfeld",
+  "email": "charles.schoenfeld@gmail.com"
+}
