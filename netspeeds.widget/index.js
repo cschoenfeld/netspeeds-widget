@@ -4,7 +4,7 @@ refreshFrequency: 5000,
 
 render: function(output) {
 	var data = output.split('#');
-	return "<div class=\"netspeeds-widget\"><div class=\"speeds speeds-ethernet\"><h3>Ethernet:</h3>in: " + data[0] + " kb/sec<br>out: " + data[1] + "kb/sec<br>IP: " + data[4] + "</div><div class=\"speeds speeds-airport\"><h3>Airport:</h3>in: " + data[2] + " kb/sec<br>out: " + data[3] + " kb/sec<br>IP: " + data[5] + "</div></div>";
+	return "<div class=\"netspeeds-widget\"><div class=\"speeds speeds-ethernet\"><h3>Ethernet:</h3>in: " + data[0] + " kb/sec<br>out: " + data[1] + " kb/sec<br>IP: " + data[4] + "</div><div class=\"speeds speeds-airport\"><h3>AirPort:</h3>in: " + data[2] + " kb/sec<br>out: " + data[3] + " kb/sec<br>IP: " + data[5] + "</div></div>";
 },
 
 style: "\n\
